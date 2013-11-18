@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.8)
+project( Abandoned )
+find_package( OpenCV REQUIRED )
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
+add_executable( Abandoned ${DIR_SRCS} )
+target_link_libraries( Abandoned ${OpenCV_LIBS} )
+
+#cmake_minimum_required(VERSION 2.8)
+#project( DisplayImage )
+#find_package( OpenCV REQUIRED )
+#add_executable( DisplayImage DisplayImage.cpp )
+#target_link_libraries( DisplayImage ${OpenCV_LIBS} )
