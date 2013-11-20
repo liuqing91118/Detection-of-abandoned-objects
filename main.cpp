@@ -12,4 +12,5 @@ int main(int, char**)
 	int Abandoned_detection();
     Abandoned_detection();
     return 0;
+    //qinglou
 }
